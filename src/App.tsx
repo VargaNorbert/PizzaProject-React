@@ -14,7 +14,6 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { UserProvider } from "./components/Contexts/UserContextProvider";
 import MyOrdersPage from "./pages/myorderspage/MyOrdersPage";
-import socket from "./socket";
 
 function App() {
   return (
